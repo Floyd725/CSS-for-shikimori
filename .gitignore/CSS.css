@@ -2654,10 +2654,12 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
     text-decoration: none;
 }
 .b-shiki_editor footer .unpreview:not(.link), .b-shiki_editor footer .cancel, .b-shiki_editor footer .hide {
-    color: #6114a0;
+    color: #ffffff;
+    background: #6114a0;
     cursor: pointer;
-    border-bottom: 1px dotted rgba(23,96,147,0.3);
-    line-height: 1;
+    line-height: initial;;
+    padding: 4px 10px 4px 10px;
+    font-size: 13px;
 }
 .b-shiki_editor footer .preview:hover {
   background-color: #8942c3;
@@ -2687,10 +2689,6 @@ body[data-locale=ru] .b-new_marker.active:hover:before {
 }
 .b-feedback-inner .about a {
     color: #1b8e00;
-    cursor: pointer;
-}
-.b-shiki_editor footer .unpreview:not(.link), .b-shiki_editor footer .cancel, .b-shiki_editor footer .hide {
-    color: #ffffff;
     cursor: pointer;
 }
 .b-shiki_editor footer .unpreview:not(.link):hover, .b-shiki_editor footer .cancel:hover, .b-shiki_editor footer .hide:hover {
